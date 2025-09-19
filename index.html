@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omni AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="omni-dashboard">
+        <h1>Welcome to Omni</h1>
+
+        <!-- Game Creation Section -->
+        <div id="game-creation">
+            <h2>Game Creation</h2>
+            <button id="start-game-creation">Start New Game</button>
+            <!-- Additional Game Creation Tools Here -->
+        </div>
+
+        <!-- Image Generation Section -->
+        <div id="image-generation">
+            <h2>Generate Game Assets</h2>
+            <textarea id="image-prompt" placeholder="Describe your image..." rows="4"></textarea>
+            <button id="generate-image">Generate Image</button>
+            <div id="generated-image-container" class="hidden">
+                <h3>Generated Image:</h3>
+                <img id="generated-image" alt="Generated Image" />
+            </div>
+        </div>
+
+        <!-- Omni AI Assistant Chat -->
+        <div id="omni-chat">
+            <h2>Ask Omni Anything</h2>
+            <div id="chat-window">
+                <div id="messages"></div>
+            </div>
+            <input type="text" id="user-input" placeholder="Ask me anything..." />
+            <button id="send-message">Send</button>
+        </div>
+
+        <!-- Task Management -->
+        <div id="task-management">
+            <h2>Your Tasks</h2>
+            <input type="text" id="task-input" placeholder="Enter a task..." />
+            <button id="add-task">Add Task</button>
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
