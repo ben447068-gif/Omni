@@ -1,0 +1,24 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "ben447068-gif.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ben447068-gif.github",
+  "start_url": "/https://ben447068-gif.github.io/Omni/",
+  "theme_color": "#ffffff",
+  "id": "Omni AI",
+  "description": "The No 1 AI app for developers",
+  "lang": "en",
+  "display_override": [
+    "standalone",
+    "fullscreen",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "books",
+    "education",
+    "utilities"
+  ]
+}
